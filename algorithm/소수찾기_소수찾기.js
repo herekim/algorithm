@@ -6,9 +6,6 @@ function solution(n) {
       for (let j = i * 2; j <= n; j += i) {
         prime[j] = false
       }
-    }
-  }
-
   return prime.filter((item) => item === true).length
 }
 
