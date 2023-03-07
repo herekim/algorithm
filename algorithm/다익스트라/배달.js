@@ -1,4 +1,4 @@
-import MinHeap from '../practice/힙/minHeap'
+import MinHeap from '../../practice/힙/minHeap'
 
 /**
  * 첫번째 풀이
