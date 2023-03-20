@@ -1,3 +1,5 @@
+// 다시
+
 function solution(storey) {
   var answer = 0
 
