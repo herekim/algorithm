@@ -30,10 +30,6 @@ function solution2(n, a, b) {
 
 console.log(solution(8, 4, 7))
 
-1 2
-1 2 3 4
-1 2 3 4 5 6 7 8
-
 /**
  * 계획
  * 1. 총 n/2번의 경기가 진행된다.
