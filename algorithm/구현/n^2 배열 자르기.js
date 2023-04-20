@@ -4,13 +4,6 @@ function solution(n, left, right) {
     const col = Number.parseInt(i / n) + 1
     const row = (i % n) + 1
 
-    console.log(1 % 3)
-
-    console.log('n', n)
-    console.log('i', i)
-    console.log('col', col)
-    console.log('row', row)
-
     answer.push(Math.max(col, row))
   }
   return answer
@@ -23,8 +16,9 @@ function solution(n, left, right) {
 console.log(solution(3, 2, 5))
 
 /*
-계획
+https://school.programmers.co.kr/learn/courses/30/lessons/87390
 
+계획
 잘못된 계획
 이유 : 이차배열을 만들려면 n = 10^7 이므로 메모리 문제가 생긴다.
 1. 이차배열을 생성.
