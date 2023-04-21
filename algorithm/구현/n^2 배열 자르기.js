@@ -1,7 +1,7 @@
 function solution(n, left, right) {
   let answer = []
   for (var i = left; i <= right; i++) {
-    const col = Number.parseInt(i / n) + 1
+    const col = parseInt(i / n) + 1
     const row = (i % n) + 1
 
     answer.push(Math.max(col, row))
