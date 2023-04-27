@@ -1,9 +1,9 @@
-function solution() {
-  let answer = 0
+function solution(n) {
+  var answer = 0
   return answer
 }
 
-console.log(solution())
+console.log(solution(4))
 
 /*
 계획
