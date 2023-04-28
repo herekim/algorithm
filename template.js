@@ -3,7 +3,7 @@ function solution(n) {
   return answer
 }
 
-console.log(solution(4))
+console.log(solution())
 
 /*
 계획
@@ -13,4 +13,5 @@ console.log(solution(4))
 예상 유형
 
 배운 점
+
 */
