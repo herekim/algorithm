@@ -1,13 +1,13 @@
 function solution(n, m, arr) {
   let answer = 0
 
-  let leftPointer = 0
-  let rightPointer = 1
+  // let leftPointer = 0
+  // let rightPointer = 1
 
   for (let i = 0; i < arr.length; i++) {
     let count = arr[i]
 
-    leftPointer = i
+    // leftPointer = i
 
     for (let j = i + 1; j < arr.length; j++) {
       count += arr[j]
