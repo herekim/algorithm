@@ -23,7 +23,7 @@ console.log(solution([1, 1, 1, 1, 1], 3))
  *
  * 계획
  * 1. numbers의 현재 위치와 누산값 인자로 넘기는 dfs를 생성한다.
- * 2. numbers를 for문 돌면서
+ * 2. numbers를 for문 돌면서..
  *    2.1. 현재 위치가 numbers의 길이보다 짧다면 dfs를 재귀함수 호출한다.
  *         2.1.1. 현재 위치 +1, 누산값 + number를 인자로 전달한다.
  *         2.1.2. 현재 위치 +1, 누산값 - number를 인자로 전달한다.
