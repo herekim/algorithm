@@ -1,4 +1,4 @@
-function solution(n) {
+function solution() {
   var answer = 0
   return answer
 }
